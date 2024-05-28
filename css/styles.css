@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2E3D5;
+}
+
+.caja1 {
+    background-color: #5C4B51;
+    height: 150px; border: black solid;
+}
+
+.caja2 {
+    background-color: #8CBEB2;
+    height: 150px;
+    border: black solid;
+}
+
+.caja3 {
+    background-color: #F2EBBF;
+    height: 150px;
+    border: black solid;
+}
+
+.caja4 {
+    background-color: #F3B562;
+    height: 150px;
+    border: black solid;
+}
+
+.caja5 {
+    background-color: #F06060;
+    height: 150px;
+    border: black solid;
+}
+@media (min-width:150px) and (max-width:576px){
+    .ocultarCaja{
+        display: none;
+    }}
+
+@media (min-width:150px) and (max-width:992px){
+    .ocultarCaja1{
+        display: none;
+    }}
